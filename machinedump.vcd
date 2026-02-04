@@ -1,0 +1,93 @@
+$date
+	Wed Feb 04 17:50:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module machinetest $end
+$var wire 3 ! items [2:0] $end
+$var wire 4 " chn [3:0] $end
+$var reg 1 # clk $end
+$var reg 3 $ fi [2:0] $end
+$var reg 1 % rst $end
+$var reg 3 & ten [2:0] $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 3 ' fives [2:0] $end
+$var wire 1 % reset $end
+$var wire 3 ( tens [2:0] $end
+$var reg 4 ) change [3:0] $end
+$var reg 3 * items [2:0] $end
+$var reg 7 + sum [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+b0 )
+bx (
+bx '
+bx &
+1%
+bx $
+x#
+b0 "
+b0 !
+$end
+#2000
+bx "
+bx )
+bx +
+1#
+0%
+#4000
+b11110 +
+b10 &
+b10 (
+b10 $
+b10 '
+0#
+#6000
+b10 !
+b10 *
+b0 "
+b0 )
+1#
+#8000
+0#
+#10000
+b0 !
+b0 *
+b0 +
+1#
+1%
+#11000
+b1010101 +
+b110 &
+b110 (
+b101 $
+b101 '
+0%
+#12000
+0#
+#14000
+b101 !
+b101 *
+b1010 "
+b1010 )
+1#
+#16000
+0#
+#18000
+1#
+#20000
+0#
+#21000
